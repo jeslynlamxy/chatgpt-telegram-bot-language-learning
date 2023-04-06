@@ -1,8 +1,6 @@
 # ChatGPT Telegram Bot for Language Learning
 
-We all love [chat.openai.com](https://chat.openai.com), but... It's TERRIBLY laggy, has daily limits, and is only accessible through an archaic web interface.
-
-This repo is ChatGPT re-created as Telegram Bot. **And it works great.**
+Implementation includes various modes to allow for users to learn languages through telegram, interactive language learning as a service through chatgpt!
 
 ## Credits to
 - [KarFly](https://github.com/karfly/chatgpt_telegram_bot)
