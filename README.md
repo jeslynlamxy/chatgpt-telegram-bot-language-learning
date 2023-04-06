@@ -4,6 +4,9 @@ We all love [chat.openai.com](https://chat.openai.com), but... It's TERRIBLY lag
 
 This repo is ChatGPT re-created as Telegram Bot. **And it works great.**
 
+## Credits to
+- [KarFly](https://github.com/karfly/chatgpt_telegram_bot)
+
 ## Features
 - Low latency replies (it usually takes about 3-5 seconds)
 - No request limits
@@ -15,16 +18,6 @@ This repo is ChatGPT re-created as Telegram Bot. **And it works great.**
 - Support of [ChatGPT API](https://platform.openai.com/docs/guides/chat/introduction)
 - List of allowed Telegram users
 - Track $ balance spent on OpenAI API
-
-## Credits to
-- [KarFly](https://github.com/karfly/chatgpt_telegram_bot)
-
-## News
-- *24 Mar 2023*: GPT-4 support. Run `/settings` command to choose model
-- *15 Mar 2023*: Added message streaming. Now you don't have to wait until the whole message is ready, it's streamed to Telegram part-by-part (watch demo)
-- *9 Mar 2023*: Now you can easily create your own Chat Modes by editing `config/chat_modes.yml`
-- *8 Mar 2023*: Added voice message recognition with [OpenAI Whisper API](https://openai.com/blog/introducing-chatgpt-and-whisper-apis). Record a voice message and ChatGPT will answer you!
-- *2 Mar 2023*: Added support of [ChatGPT API](https://platform.openai.com/docs/guides/chat/introduction). It's enabled by default and can be disabled with `use_chatgpt_api` option in config. Don't forget to **rebuild** you docker image (`--build`).
 
 ## Bot commands
 - `/retry` – Regenerate last bot answer
@@ -48,6 +41,4 @@ This repo is ChatGPT re-created as Telegram Bot. **And it works great.**
 4. 🔥 And now **run**:
     ```bash
     docker-compose --env-file config/config.env up --build
-  
-## References
-1. [*Build ChatGPT from GPT-3*](https://learnprompting.org/docs/applied_prompting/build_chatgpt)
+ 
