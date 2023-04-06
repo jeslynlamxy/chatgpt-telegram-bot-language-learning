@@ -1,4 +1,4 @@
-# ChatGPT Telegram Bot for Language Learning
+# ChatBuddy ChatGPT Telegram Bot for Language Learning
 
 Implementation includes various modes to allow for users to learn languages through telegram, 
 
