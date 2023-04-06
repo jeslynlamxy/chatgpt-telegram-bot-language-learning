@@ -1,6 +1,8 @@
 # ChatGPT Telegram Bot for Language Learning
 
-Implementation includes various modes to allow for users to learn languages through telegram, interactive language learning as a service through chatgpt!
+Implementation includes various modes to allow for users to learn languages through telegram, 
+
+Interactive language learning as a service through chatgpt!
 
 ## Credits to
 - [KarFly](https://github.com/karfly/chatgpt_telegram_bot)
