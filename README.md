@@ -1,4 +1,4 @@
-# ChatGPT Telegram Bot
+# ChatGPT Telegram Bot for Language Learning
 
 We all love [chat.openai.com](https://chat.openai.com), but... It's TERRIBLY laggy, has daily limits, and is only accessible through an archaic web interface.
 
